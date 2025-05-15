@@ -1,0 +1,18 @@
+bootstrap_corr_rho: 0.1
+constraints:
+  max_adv_fraction: 0.05
+  max_leverage: 5.0
+  max_name_weight: 0.05
+  max_sector_weight: 0.2
+  max_turnover: 0.02
+end_date: '2024-12-31'
+pareto_alpha: 0.8
+pareto_lower_bp: 2
+pareto_upper_bp: 15
+processed_data_path: data
+raw_data_path: data
+resample_prob_p: 0.4
+results_path: results
+risk_aversion_lambda: 2.5e-06
+start_date: '2023-01-03'
+universe: RUSSELL3000
